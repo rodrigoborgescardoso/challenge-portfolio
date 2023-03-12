@@ -1,0 +1,7 @@
+.redes-sociais__item {
+    list-style: none;
+}
+
+.redes-sociais__item:last-child .redes-sociais__link {
+    margin-right: 0;
+}
