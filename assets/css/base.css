@@ -1,0 +1,11 @@
+:root {
+    --cinza-claro: #F5F5F5;
+    --azul-claro: #EAF2FD;
+    
+    --raleway: 'Raleway', sans-serif;
+}
+
+body {
+    color: #464646;
+    font-family: 'Raleway', sans-serif;
+}
