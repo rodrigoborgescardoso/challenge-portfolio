@@ -1,0 +1,8 @@
+.formacoes__item {
+    margin-right: 1rem;
+    width: calc(30% - 1rem);
+}
+
+.formacoes__item--alura {
+    margin-right: 0;
+}

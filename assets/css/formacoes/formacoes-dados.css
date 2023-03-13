@@ -1,0 +1,5 @@
+.formacoes__dados {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+}

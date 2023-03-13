@@ -1,0 +1,15 @@
+.formacoes__imagem {
+    background-color: #FFFFFF;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 286px;
+    width: 100%;
+}
+
+.formacoes__imagem--unigoias {
+    background-image: url('../../images/unigoias.png');
+}
+
+.formacoes__imagem--alura {
+    background-image: url('../../images/alura.png');
+}
