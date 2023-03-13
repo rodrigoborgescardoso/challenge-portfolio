@@ -1,0 +1,25 @@
+.hobbies__item {
+    align-items: end;
+    background-color: #FFFFFF;
+    background-position-x: 1rem;
+    background-position-y: calc(174px - 2.5rem);
+    background-repeat: no-repeat;
+    display: flex;
+    height: 174px;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: calc(16% - 1rem);
+}
+
+.hobbies__item--ouvir-musica {
+    background-image: url('../../images/headphones_icon.png');
+}
+
+.hobbies__item--assistir-series {
+    background-image: url('../../images/tv_icon.png');
+}
+
+.hobbies__item--praticar-esportes {
+    background-image: url('../../images/skate_icon.png');
+    margin-right: 0;
+}
