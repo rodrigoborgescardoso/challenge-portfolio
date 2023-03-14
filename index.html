@@ -51,6 +51,12 @@
         <link rel="stylesheet" href="assets/css/experiencias/experiencias-descricao.css">
         <link rel="stylesheet" href="assets/css/botoes/botaoTransparente.css">
         <link rel="stylesheet" href="assets/css/botoes/botaoAzul.css">
+        <link rel="stylesheet" href="assets/css/contato.css">
+        <link rel="stylesheet" href="assets/css/formulario/formulario.css">
+        <link rel="stylesheet" href="assets/css/formulario/formulario-titulo.css">
+        <link rel="stylesheet" href="assets/css/formulario/formulario-descricao.css">
+        <link rel="stylesheet" href="assets/css/formulario/formulario-campos.css">
+        <link rel="stylesheet" href="assets/css/formulario/formulario-input.css">
     </head>
     <body>
         <header class="cabecalho">
@@ -154,5 +160,19 @@
             </div>
         </section>
 
+        <section class="contato">
+            <img src="assets/images/contact_image.png">
+            <div class="formulario">
+                <h2 class="formulario__titulo">Contato</h2>
+                <p class="formulario__descricao">Quer entrar em contato comigo?<br>Preencha o formulário abaixo e entrarei em contato o mais rápido possível.</p>
+                <form class="formulario__campos">
+                    <input class="formulario__input" type="text" name="nome" placeholder="Nome" data-form="nome">
+                    <input class="formulario__input" type="email" name="email" placeholder="E-mail" data-form="email">
+                    <input class="formulario__input" type="text" name="assunto" placeholder="Assunto" data-form="assunto">
+                    <textarea class="formulario__input formulario__input--textarea" name="mensagem" cols="30" rows="10" placeholder="Mensagem" data-form="mensagem"></textarea>
+                    <button class="botao-azul botao-azul--mobile">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
     </body>
 </html>

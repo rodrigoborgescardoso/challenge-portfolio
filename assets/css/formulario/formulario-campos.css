@@ -1,0 +1,8 @@
+.formulario__campos {
+    align-items: self-start;
+    display: flex;
+    flex-direction: column;
+    height: 594px;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
