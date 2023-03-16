@@ -57,7 +57,9 @@
         <link rel="stylesheet" href="assets/css/formulario/formulario-titulo.css">
         <link rel="stylesheet" href="assets/css/formulario/formulario-descricao.css">
         <link rel="stylesheet" href="assets/css/formulario/formulario-campos.css">
+        <link rel="stylesheet" href="assets/css/formulario/formulario-inputContainer.css">
         <link rel="stylesheet" href="assets/css/formulario/formulario-input.css">
+        <link rel="stylesheet" href="assets/css/formulario/formulario-invalido.css">
         <link rel="stylesheet" href="assets/css/rodape.css">
     </head>
     <body>
@@ -97,7 +99,6 @@
             <p class="sobre-mim__biografia">Sou brasileiro, tenho 42 anos, me formei Engenheiro da Computação em 2013, porém numca trabalhei na área de T.I.</p>
             <p class="sobre-mim__biografia">Hoje atuo no segmento de auto peças e estou participando do projeto Oracle ONE na alura visando me qualificar, para então migrar de carreira e atuar na minha área de formação.</p>
             <div class="sobre-mim__assinatura"></div>
-            <!--<img class="sobre-mim__assinatura" src="assets/images/signature.png">-->
         </section>
 
         <section class="skills">
@@ -169,10 +170,22 @@
                 <h2 class="formulario__titulo">Contato</h2>
                 <p class="formulario__descricao">Quer entrar em contato comigo?<br>Preencha o formulário abaixo e entrarei em contato o mais rápido possível.</p>
                 <form class="formulario__campos">
-                    <input class="formulario__input" type="text" name="nome" placeholder="Nome" data-form="nome">
-                    <input class="formulario__input" type="email" name="email" placeholder="E-mail" data-form="email">
-                    <input class="formulario__input" type="text" name="assunto" placeholder="Assunto" data-form="assunto">
-                    <textarea class="formulario__input formulario__input--textarea" name="mensagem" cols="30" rows="10" placeholder="Mensagem" data-form="mensagem"></textarea>
+                    <div>
+                        <input class="formulario__input" type="text" name="nome" placeholder="Nome" data-form="nome" maxlength="50" required>
+                        <span class="formulario__invalido">Campo inválido</span>
+                    </div>
+                    <div>
+                        <input class="formulario__input" type="email" name="email" placeholder="E-mail" data-form="email" required>
+                        <span class="formulario__invalido">Campo inválido</span>
+                    </div>
+                    <div>
+                        <input class="formulario__input" type="text" name="assunto" placeholder="Assunto" data-form="assunto" maxlength="50" required>
+                        <span class="formulario__invalido">Campo inválido</span>
+                    </div>
+                    <div>
+                        <textarea class="formulario__input formulario__input--textarea" name="mensagem" cols="30" rows="10" placeholder="Mensagem" data-form="mensagem" maxlength="300" required></textarea>
+                        <span class="formulario__invalido">Campo inválido</span>
+                    </div>
                     <button class="botao-azul botao-azul--mobile">Enviar mensagem</button>
                 </form>
             </div>
@@ -180,5 +193,6 @@
         <footer class="rodape">
             <p>Desenvolvido por Rodrigo Borges Cardoso<br>2023</p>
         </footer>
+        <script type="module" src="assets/js/pegaInput.js"></script>
     </body>
 </html>
