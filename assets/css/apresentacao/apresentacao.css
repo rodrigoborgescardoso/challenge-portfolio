@@ -1,4 +1,22 @@
-.apresentacao {
-    margin-right: 1rem;
-    width: 65%;
+@media screen and (min-width: 0) {
+    .apresentacao {
+        margin-right: 0;
+        margin-top: 1rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .apresentacao {
+        margin-right: 2rem;
+        margin-top: 0;
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .apresentacao {
+        margin-right: 1rem;
+        width: 65%;
+    }
 }

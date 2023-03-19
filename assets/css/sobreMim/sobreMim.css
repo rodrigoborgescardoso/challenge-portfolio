@@ -1,4 +1,21 @@
 .sobre-mim {
     background-color: var(--azul-claro);
-    padding: 4rem 9.5rem;
+}
+
+@media screen and (min-width: 0) {
+    .sobre-mim {
+        padding: 1rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sobre-mim {
+        padding: 2rem 2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .sobre-mim {
+        padding: 4rem 9.5rem;
+    }
 }

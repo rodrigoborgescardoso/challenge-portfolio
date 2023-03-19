@@ -52,7 +52,8 @@
         <link rel="stylesheet" href="assets/css/experiencias/experiencias-descricao.css">
         <link rel="stylesheet" href="assets/css/botoes/botaoTransparente.css">
         <link rel="stylesheet" href="assets/css/botoes/botaoAzul.css">
-        <link rel="stylesheet" href="assets/css/contato.css">
+        <link rel="stylesheet" href="assets/css/contato/contato.css">
+        <link rel="stylesheet" href="assets/css/contato/contato-imagem.css">
         <link rel="stylesheet" href="assets/css/formulario/formulario.css">
         <link rel="stylesheet" href="assets/css/formulario/formulario-titulo.css">
         <link rel="stylesheet" href="assets/css/formulario/formulario-descricao.css">
@@ -123,7 +124,7 @@
                     <span class="hobbies__nome">Ouvir música</span>
                 </div>
                 <div class="hobbies__item hobbies__item--assistir-series">
-                    <span class="hobbies__nome">Assistir séries e filmes</span>
+                    <span class="hobbies__nome">Assistir séries</span>
                 </div>
                 <div class="hobbies__item hobbies__item--praticar-esportes">
                     <span class="hobbies__nome">Praticar esportes</span>
@@ -158,31 +159,31 @@
                 <div class="experiencias__dados">
                     <h3 class="experiencias__nome-projeto">Decodificador de texto</h3>
                     <p class="experiencias__descricao">Challenge Alura Codificador</p>
-                    <button class="botao-transparente botão-transparente--mobile">Repositório</button>
-                    <button class="botao-azul botao-azul--mobile">Ver demo</button>
+                    <button class="botao-transparente">Repositório</button>
+                    <button class="botao-azul">Ver demo</button>
                 </div>
             </div>
         </section>
 
         <section class="contato">
-            <img src="assets/images/contact_image.png">
+            <img class="contato__imagem" src="assets/images/contact_image.png">
             <div class="formulario">
                 <h2 class="formulario__titulo">Contato</h2>
                 <p class="formulario__descricao">Quer entrar em contato comigo?<br>Preencha o formulário abaixo e entrarei em contato o mais rápido possível.</p>
                 <form class="formulario__campos">
-                    <div>
+                    <div class="formulario__input-container">
                         <input class="formulario__input" type="text" name="nome" placeholder="Nome" data-form="nome" maxlength="50" required>
                         <span class="formulario__invalido">Campo inválido</span>
                     </div>
-                    <div>
+                    <div class="formulario__input-container">
                         <input class="formulario__input" type="email" name="email" placeholder="E-mail" data-form="email" required>
                         <span class="formulario__invalido">Campo inválido</span>
                     </div>
-                    <div>
+                    <div class="formulario__input-container">
                         <input class="formulario__input" type="text" name="assunto" placeholder="Assunto" data-form="assunto" maxlength="50" required>
                         <span class="formulario__invalido">Campo inválido</span>
                     </div>
-                    <div>
+                    <div class="formulario__input-container">
                         <textarea class="formulario__input formulario__input--textarea" name="mensagem" cols="30" rows="10" placeholder="Mensagem" data-form="mensagem" maxlength="300" required></textarea>
                         <span class="formulario__invalido">Campo inválido</span>
                     </div>

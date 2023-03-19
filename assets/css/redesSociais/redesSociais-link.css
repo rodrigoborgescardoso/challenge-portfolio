@@ -1,8 +1,21 @@
 .redes-sociais__link {
     color: #464646;
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 1.1875rem;
     margin-right: 2rem;
     text-decoration: none;
+}
+
+@media screen and (min-width: 0) {
+    .redes-sociais__link {
+        font-size: 0.875rem;
+        font-weight: 600;
+        line-height: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .redes-sociais__link {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.1875rem;
+    }
 }

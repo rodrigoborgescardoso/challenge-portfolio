@@ -1,5 +1,18 @@
 .formacoes__lista {
     display: flex;
-    justify-content: center;
     margin-top: 2rem;
+}
+
+@media screen and (min-width: 0) {
+    .formacoes__lista {
+        flex-direction: column;
+        justify-content: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formacoes__lista {
+        flex-direction: row;
+        justify-content: center;
+    }
 }

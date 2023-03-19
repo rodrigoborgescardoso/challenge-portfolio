@@ -1,5 +1,17 @@
 .experiencias__imagem {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    margin-right: 1.625rem;
-    width: 60%;
+}
+
+@media screen and (min-width: 0) {
+    .experiencias__imagem {
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .experiencias__imagem {
+        margin-right: 1.625rem;
+        width: 60%;
+    }
 }

@@ -1,4 +1,8 @@
-.formulario__input-container .formulario__invalido {
+.formulario__input-container {
+    width: calc(100% - 2rem);
+}
+
+.formulario__input-container--invalido .formulario__invalido {
     color: #FF0000;
     display: block;
     font-size: 0.9rem;
@@ -6,11 +10,11 @@
     margin: 0.4rem 0 0 0.4rem;
 }
 
-.formulario__input-container .formulario__input {
+.formulario__input-container--invalido .formulario__input {
     border: 1px solid #FF0000;
 }
 
-.formulario__input-container .formulario__input::placeholder {
+.formulario__input-container--invalido .formulario__input::placeholder {
     color: #FF0000;
     font-style: italic;
 }

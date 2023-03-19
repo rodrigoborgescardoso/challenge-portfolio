@@ -1,7 +1,28 @@
 .banner {
-    align-items: center;
     background-color: var(--cinza-claro);
     display: flex;
-    justify-content: space-between;
-    padding: 2rem 9.5rem;
+}
+
+@media screen and (min-width: 0) {
+    .banner {
+        align-items: start;
+        flex-direction: column-reverse;
+        justify-content: none;
+        padding: 1rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .banner {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem 2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner {
+        padding: 2rem 9.5rem;
+    }
 }

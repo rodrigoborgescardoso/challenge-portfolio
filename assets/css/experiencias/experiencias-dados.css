@@ -1,3 +1,15 @@
 .experiencias__dados {
     text-align: left;
 }
+
+@media screen and (min-width: 0) {
+    .experiencias__dados {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .experiencias__dados {
+        margin-top: 0;
+    }
+}

@@ -2,10 +2,10 @@ export const mostraMensagemErro = (input) => {
     const tipoDeInput = input.dataset.form;
 
     if(input.validity.valid) {
-        input.parentElement.classList.remove('formulario__input-container');
+        input.parentElement.classList.remove('formulario__input-container--invalido');
         input.parentElement.querySelector('.formulario__invalido').innerHTML = '';
     } else {
-        input.parentElement.classList.add('formulario__input-container');
+        input.parentElement.classList.add('formulario__input-container--invalido');
         input.parentElement.querySelector('.formulario__invalido').innerHTML = selecionaMensagemErro(tipoDeInput, input);
     }
 };

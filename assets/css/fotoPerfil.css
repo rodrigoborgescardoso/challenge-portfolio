@@ -4,6 +4,25 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
-    height: 368px;
-    width: 368px;
+}
+
+@media screen and (min-width: 0) {
+    .foto-perfil {
+        height: 98px;
+        width: 98px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .foto-perfil {
+        height: 146px;
+        width: 146px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .foto-perfil {
+        height: 368px;
+        width: 368px;
+    }
 }

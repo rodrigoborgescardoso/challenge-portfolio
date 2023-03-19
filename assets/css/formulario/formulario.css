@@ -1,3 +1,11 @@
-.formulario {
-    margin-left: 1rem;
+@media screen and (min-width: 0) {
+    .formulario {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formulario {
+        margin-left: 1rem;
+    }
 }

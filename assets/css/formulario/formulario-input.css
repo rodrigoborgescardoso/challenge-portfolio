@@ -10,7 +10,8 @@
     height: 3.5rem;
     line-height: 1.25rem;
     padding: 0 1rem;
-    width: 41rem;
+    max-width: 41rem;
+    width: 100%;
 }
 
 .formulario__input--textarea {

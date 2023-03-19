@@ -1,15 +1,16 @@
-.formacoes {
+.contato {
     background-color: var(--azul-claro);
+    display: flex;
 }
 
 @media screen and (min-width: 0) {
-    .formacoes {
+    .contato {
         padding: 2rem;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .formacoes {
-        padding: 5.125rem 9.5rem;
+    .contato {
+        padding: 8rem 9.5rem 4rem 9.5rem;
     }
 }

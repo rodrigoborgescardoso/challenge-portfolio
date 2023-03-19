@@ -3,3 +3,22 @@
     padding: 5.5rem 9.5rem;
     text-align: center;
 }
+
+@media screen and (min-width: 0) {
+    .hobbies {
+        padding: 2rem 1rem 1rem 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hobbies {
+        padding: 4rem 2rem 2rem 2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hobbies {
+        padding: 5.5rem 9.5rem;
+    }
+    
+}

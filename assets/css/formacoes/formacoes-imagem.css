@@ -2,7 +2,6 @@
     background-color: #FFFFFF;
     background-position: center;
     background-repeat: no-repeat;
-    height: 286px;
     width: 100%;
 }
 
@@ -12,4 +11,18 @@
 
 .formacoes__imagem--alura {
     background-image: url('../../images/alura.png');
+}
+
+@media screen and (min-width: 0) {
+    .formacoes__imagem {
+        height: 118px;
+        background-size: 40%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formacoes__imagem {
+        height: 286px;
+        background-size: auto;
+    }
 }

@@ -1,6 +1,18 @@
 .formacoes__ano-instituicao {
-    font-size: 1rem;
     font-weight: 500;
-    line-height: 1.1875rem;
     margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 0) {
+    .formacoes__ano-instituicao {
+        font-size: 0.875rem;
+        line-height: 1rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formacoes__ano-instituicao {
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
 }

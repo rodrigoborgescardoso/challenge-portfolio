@@ -1,5 +1,17 @@
 .sobre-mim__titulo {
-    font-size: 2rem;
     font-weight: 700;
-    line-height: 2.375rem;
+}
+
+@media screen and (min-width: 0) {
+    .sobre-mim__titulo {
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .sobre-mim__titulo {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
 }

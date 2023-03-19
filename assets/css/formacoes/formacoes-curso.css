@@ -1,6 +1,18 @@
 .formacoes__curso {
-    font-size: 1.375rem;
     font-weight: 700;
-    line-height: 1.625rem;
     margin-top: 0.5rem;
+}
+
+@media screen and (min-width: 0) {
+    .formacoes__curso {
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .formacoes__curso {
+        font-size: 1.375rem;
+        line-height: 1.625rem;
+    }
 }

@@ -1,8 +1,21 @@
 .formacoes__item {
     margin-right: 1rem;
-    width: calc(30% - 1rem);
 }
 
 .formacoes__item--alura {
     margin-right: 0;
+}
+
+@media screen and (min-width: 0) {
+    .formacoes__item {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .formacoes__item {
+        width: calc(30% - 1rem);
+        margin-top: 0;
+    }
 }
